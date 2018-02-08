@@ -15,6 +15,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    Account joeSmith = new Account("Joe Smith", "joe@fake.com");
+	    Account daveJones = new Account("234-90", 100,"Dave Jones", "djones@fake.com");
+
+	    joeSmith.addFunds(5);
+
+	    daveJones.withdrawFunds(-65);
     }
 }
