@@ -20,6 +20,10 @@ public class Main {
 
 	    joeSmith.addFunds(5);
 
-	    daveJones.withdrawFunds(-65);
+	    daveJones.withdrawFunds(65);
+        daveJones.withdrawFunds(35);
+        daveJones.withdrawFunds(35);
+
+
     }
 }

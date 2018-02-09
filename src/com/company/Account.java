@@ -64,9 +64,13 @@ public class Account {
             return -1;
         }
         this.balance -= withdraw;
-        System.out.println(withdraw + " added to account, new balance " + this.balance);
+        System.out.println(withdraw + " taken from account, new balance " + this.balance);
         return withdraw;
     }
+
+//    public String dollarFormat(double inputD) {
+//
+//    }
 
     public String getAccountNumber() {
         return accountNumber;
