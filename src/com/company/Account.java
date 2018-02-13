@@ -50,7 +50,7 @@ public class Account {
             return -1;
         }
         this.balance += deposit;
-        System.out.println(deposit + " added to account, new balance " + this.balance);
+        System.out.printf("$%d.00 added to account, new balance $%.2f \n", deposit, this.balance);
         return deposit;
     }
 
@@ -64,12 +64,12 @@ public class Account {
             return -1;
         }
         this.balance -= withdraw;
-        System.out.println(withdraw + " taken from account, new balance " + this.balance);
+        System.out.printf("$%d.00 taken from account, new balance $%.2f \n", withdraw, this.balance);
         return withdraw;
     }
 
-//    public String dollarFormat(double inputD) {
-//
+//    public void dollarFormat(double inputD) {
+//        System.out.printf("$%.2f", inputD);
 //    }
 
     public String getAccountNumber() {
